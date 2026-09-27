@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Citas Médicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestión de Citas Médicas</h1>
+    <div class="form-group">
+      <input type="text" id="paciente" placeholder="Nombre del Paciente">
+      <input type="text" id="medico" placeholder="Médico Especialista">
+      <input type="datetime-local" id="fecha">
+      <button onclick="agendarCita()">Agendar Cita</button>
+    </div>
+    <ul id="listaCitas"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
